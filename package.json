@@ -1,0 +1,39 @@
+{
+  "name": "carrentalsystem",
+  "version": "0.0.0",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "aws-sdk": "^2.824.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cf-deployment-tracker-client": "*",
+    "commander": "^2.6.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "formidable": "^1.2.1",
+    "http": "0.0.1-security",
+    "http-post": "^0.1.1",
+    "http-proxy": "^1.8.1",
+    "mongoose": "^5.11.10",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.2.0",
+    "stripe": "^8.38.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM-Bluemix/bluemix-hello-node.git"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,20 @@
+.center{
+    text-align: center;
+    font-weight: bold;
+}
+
+.white{
+    color: black;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.btn-1{
+    margin-top: 10px;
+}
